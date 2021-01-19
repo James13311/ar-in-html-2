@@ -7,18 +7,17 @@
   </head>
 
 	<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-  <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
+ 
 
   <body>
    
   <a-scene> 
 	  <a-assets>
-   <img id="skyLeaves" src="https://james13311.github.io/ar-environment/autumn_forest_02.jpg" crossorigin="anonymous">
-   <img id="groundTexture" src="https://james13311.github.io/ar-environment/floor_leaves.jpg" crossorigin="anonymous">
-   <img id="wik01" src="https://james13311.github.io/ar-environment/wik_forest.jpg" />
+   <img id="sky" src="https://james13311.github.io/ar-in-html-2" crossorigin="anonymous">
+  
   </a-assets>
 	  <a-entity id="ground" geometry="primitive: cylinder; radius: 58.04" material="color: #c7c7c7; src: "https://james13311.github.io/ar-environment/floor_leaves.jpg"></a-entity>
-	  <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -13.82849 0" material="" geometry="" scale="-2 2 2"></a-sky>
+	  <a-sky id="background" src="#sky" theta-length="90" radius="30" position="0 -13.82849 0" material="" geometry="" scale="-2 2 2"></a-sky>
 	  
 	  </a-scene>
 	  
